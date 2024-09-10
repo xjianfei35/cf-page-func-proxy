@@ -8,8 +8,9 @@ function getWildcardFromDomain(domain) {
 export default {
   async fetch(request, env) {
     let url = new URL(request.url);
+    console.log(url.hostname);
+    console.log(url.pathname);
     if(url.pathname.startWith('/')){
-      //let fdomain = getWildcardFromDomain(url.hostname);
       if(url.hostname="ebook4.naszx.us.kg")
         url.hostname= "ebook.naszx.us.kg";
       else if(url.hostname="git4.naszx.us.kg")
