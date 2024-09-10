@@ -31,9 +31,10 @@ export default {
         url.hostname= "alist.naszx.us.kg";
       else 
         url.hostname= "ebook.naszx.us.kg";
+
+      console.log("hostname:",url.hostname);
       let new_request=new Request(url,request);
-      response = await fetch(new_request);
-      return response;
+      return await fetch(new_request);
     }
     // Otherwise, serve the static assets.
     return env.ASSETS.fetch(request);
