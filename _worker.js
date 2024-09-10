@@ -10,7 +10,10 @@ export default {
     let url = new URL(request.url);
     console.log(url.hostname);
     console.log(url.pathname);
-    if(url.pathname.startWith('/')){
+    url.hostname= "ebook.naszx.us.kg";
+    let new_request=new Request(url,request);
+    return fetch(new_request);
+    /* if(url.pathname.startWith('/')){
       if(url.hostname="ebook4.naszx.us.kg")
         url.hostname= "ebook.naszx.us.kg";
       else if(url.hostname="git4.naszx.us.kg")
@@ -31,7 +34,7 @@ export default {
         url.hostname= "www.naszx.us.kg";
       let new_request=new Request(url,request);
       return fetch(new_request);
-    }
+    } */
     // Otherwise, serve the static assets.
     return env.ASSETS.fetch(request);
   }
