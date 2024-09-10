@@ -10,31 +10,31 @@ export default {
     let url = new URL(request.url);
     console.log(url.hostname);
     console.log(url.pathname);
-    url.hostname= "ha.naszx.us.kg";
-    let new_request=new Request(url,request);
-    return fetch(new_request);
-    /* if(url.pathname.startWith('/')){
-      if(url.hostname="ebook4.naszx.us.kg")
+    //url.hostname= "ha.naszx.us.kg";
+    //let new_request=new Request(url,request);
+    //return fetch(new_request);
+    if(url.pathname.startWith('/')){
+      if(url.hostname=="ebook4.naszx.us.kg")
         url.hostname= "ebook.naszx.us.kg";
-      else if(url.hostname="git4.naszx.us.kg")
+      else if(url.hostname=="git4.naszx.us.kg")
         url.hostname= "git.naszx.us.kg";
-      else if(url.hostname="ddns4.naszx.us.kg")
+      else if(url.hostname=="ddns4.naszx.us.kg")
         url.hostname= "ddns.naszx.us.kg";
-      else if(url.hostname="xiaoya4.naszx.us.kg")
+      else if(url.hostname=="xiaoya4.naszx.us.kg")
         url.hostname= "xiaoya.naszx.us.kg";
-      else if(url.hostname="video4.naszx.us.kg")
+      else if(url.hostname=="video4.naszx.us.kg")
         url.hostname= "video.naszx.us.kg";
-      else if(url.hostname="ha4.naszx.us.kg")
+      else if(url.hostname=="ha4.naszx.us.kg")
         url.hostname= "ha.naszx.us.kg";
-      else if(url.hostname= "music4.naszx.us.kg")
+      else if(url.hostname== "music4.naszx.us.kg")
         url.hostname= "music.naszx.us.kg";
-      else if(url.hostname= "alist4.naszx.us.kg")
+      else if(url.hostname== "alist4.naszx.us.kg")
         url.hostname= "alist.naszx.us.kg";
       else 
         url.hostname= "www.naszx.us.kg";
       let new_request=new Request(url,request);
       return fetch(new_request);
-    } */
+    }
     // Otherwise, serve the static assets.
     return env.ASSETS.fetch(request);
   }
