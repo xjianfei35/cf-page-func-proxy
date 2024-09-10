@@ -12,7 +12,7 @@ export default {
     console.log("hostname:",url.hostname);
     console.log("pathname:",url.pathname);
     
-    if(url.pathname.startWith('/')){
+    if(url.pathname.startsWith('/')){
       if(url.hostname=="ebook4.naszx.us.kg")
         url.hostname= "ebook.naszx.us.kg";
       else if(url.hostname=="git4.naszx.us.kg")
