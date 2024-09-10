@@ -33,9 +33,12 @@ export default {
       else 
         url.hostname= "www.naszx.us.kg";
       let new_request=new Request(url,request);
-      return fetch(new_request);
+      response = await fetch(new_request);
+      return response;
     }
     // Otherwise, serve the static assets.
     return env.ASSETS.fetch(request);
   }
 };
+
+
