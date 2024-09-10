@@ -25,10 +25,18 @@ export default {
         url.hostname= "video.naszx.us.kg";
       else if(url.hostname=="ha4.naszx.us.kg")
         url.hostname= "ha.naszx.us.kg";
-      else if(url.hostname== "music4.naszx.us.kg")
+      else if(url.hostname=="music4.naszx.us.kg")
         url.hostname= "music.naszx.us.kg";
-      else if(url.hostname== "alist4.naszx.us.kg")
+      else if(url.hostname=="alist4.naszx.us.kg")
         url.hostname= "alist.naszx.us.kg";
+      else if(url.hostname=="ha4.naszx.us.kg")
+        url.hostname= "ha.naszx.us.kg";
+      else if(url.hostname=="qbit4.naszx.us.kg")
+        url.hostname= "qbit.naszx.us.kg";
+      else if(url.hostname=="openwrt4.naszx.us.kg")
+        url.hostname= "openwrt.naszx.us.kg";
+      else if(url.hostname=="route4.naszx.us.kg")
+        url.hostname= "route.naszx.us.kg";
       else 
         url.hostname= "ebook.naszx.us.kg";
 
