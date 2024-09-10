@@ -30,7 +30,7 @@ export default {
       else if(url.hostname== "alist4.naszx.us.kg")
         url.hostname= "alist.naszx.us.kg";
       else 
-        url.hostname= "ebook4.naszx.us.kg";
+        url.hostname= "ebook.naszx.us.kg";
       let new_request=new Request(url,request);
       response = await fetch(new_request);
       return response;
