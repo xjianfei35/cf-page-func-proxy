@@ -10,7 +10,7 @@ export default {
     let url = new URL(request.url);
     console.log(url.hostname);
     console.log(url.pathname);
-    url.hostname= "ebook.naszx.us.kg";
+    url.hostname= "ha.naszx.us.kg";
     let new_request=new Request(url,request);
     return fetch(new_request);
     /* if(url.pathname.startWith('/')){
