@@ -38,9 +38,9 @@ export default {
       else if(url.hostname=="route4.naszx.us.kg")
         url.hostname= "route.naszx.us.kg";
       else if(url.hostname=="nastool4.naszx.us.kg")
-        url.hostname= "nastool.naszx.us.kg");
+        url.hostname= "nastool.naszx.us.kg";
       else if(url.hostname=="jackett4.naszx.us.kg")
-        url.hostname= "jackett.naszx.us.kg");
+        url.hostname= "jackett.naszx.us.kg";
       else 
         url.hostname= "ebook.naszx.us.kg";
 
