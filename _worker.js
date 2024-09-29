@@ -43,6 +43,8 @@ export default {
         url.hostname= "jackett.naszx.us.kg";
       else if(url.hostname=="joplin4.naszx.us.kg")
         url.hostname= "joplin.naszx.us.kg";
+      else if(url.hostname=="terminal4.naszx.us.kg")
+        url.hostname= "terminal.naszx.us.kg";
       else 
         url.hostname= "ebook.naszx.us.kg";
 
