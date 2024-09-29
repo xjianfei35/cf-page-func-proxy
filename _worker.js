@@ -41,6 +41,8 @@ export default {
         url.hostname= "nastool.naszx.us.kg";
       else if(url.hostname=="jackett4.naszx.us.kg")
         url.hostname= "jackett.naszx.us.kg";
+      else if(url.hostname=="joplin4.naszx.us.kg")
+        url.hostname= "joplin.naszx.us.kg";
       else 
         url.hostname= "ebook.naszx.us.kg";
 
