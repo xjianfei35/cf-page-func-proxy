@@ -45,6 +45,8 @@ export default {
         url.hostname= "joplin.naszx.us.kg";
       else if(url.hostname=="terminal4.naszx.us.kg")
         url.hostname= "terminal.naszx.us.kg";
+      else if(url.hostname=="webdav4.naszx.us.kg")
+        url.hostname= "webdav.naszx.us.kg";
       else 
         url.hostname= "ebook.naszx.us.kg";
 
