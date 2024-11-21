@@ -49,6 +49,8 @@ export default {
         url.hostname= "webdav.naszx.us.kg";
       else if(url.hostname=="mqtt4.naszx.us.kg")
         url.hostname= "mqtt.naszx.us.kg";
+      else if(url.hostname=="livetv4.naszx.us.kg")
+        url.hostname= "livetv.naszx.us.kg";
       else 
         url.hostname= "ebook.naszx.us.kg";
 
