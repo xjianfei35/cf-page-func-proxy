@@ -53,6 +53,8 @@ export default {
         url.hostname= "livetv.naszx.us.kg";
       else if(url.hostname=="mp4.naszx.us.kg")
         url.hostname= "mp.naszx.us.kg";
+      else if(url.hostname=="tr4.naszx.us.kg")
+        url.hostname= "tr.naszx.us.kg";
       else 
         url.hostname= "ebook.naszx.us.kg";
 
